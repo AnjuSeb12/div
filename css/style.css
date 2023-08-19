@@ -1,0 +1,583 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600&family=Dancing+Script:wght@400;500&family=Edu+SA+Beginner&family=Mulish:wght@300;400;500&family=Mynerve&display=swap');
+
+
+
+html{
+    font-size: 16px;
+    
+} 
+body{
+    margin: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+   
+  
+}
+.header-border{
+    border-bottom:solid 1px lightgray;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+
+}
+
+.header-row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;  
+    
+}
+.header-nav-left ul{
+    display:flex;
+    align-items:center;
+    margin: 0px;
+    padding: 0px;
+}
+.header-nav-left ul li{
+    list-style: none;
+    
+    padding-right: 15px
+}
+.header-nav-left ul li a{
+    text-decoration: none;
+    color: rgb(5, 4, 4);
+    font-size: 14px;
+    display: block;
+    padding:10px 15px;
+}
+ .header-nav-left ul li a:hover{
+     background-color:rgb(235, 225, 225);
+     border-radius: 35px;
+
+    }
+
+.header-nav-left ul li a svg{
+    width: 30px;
+}
+
+.header-nav-right ul {
+    display: flex; 
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.header-nav-right ul li{
+    
+    list-style: none;
+    padding-left: 15px;
+}
+.header-nav-right ul li a{
+    text-decoration: none;
+    color: rgb(12, 10, 10);
+    font-size: 16px;    
+}
+.header-nav-right ul li:first-child{
+    border-radius: 40px;
+    background-color: #166dfc;
+    padding:8px 16px;
+    display: block;
+    
+}
+.header-nav-right ul li:first-child:hover{
+    background-color: blue;
+    border-radius: 40px;
+
+}
+.signin{
+    display: block;
+    padding: 10px 20px;
+}
+.signin:hover{
+    background-color: rgb(235, 225, 225);
+    border-radius: 40px;
+}
+
+.header-nav-right ul li:first-child a{
+    color:white
+}
+.text-center{
+   text-align: center;
+}
+.m-10{
+   margin-top: 10px;
+}
+.m-0{
+    margin-top:0px;
+}
+.logo{
+    font-size: 17px;
+    font-style: italic;
+    color:rgb(116, 108, 108);
+}
+.content-wrapper{
+margin: 15px 150px 0px 100px;
+}
+.border-content{
+    border-bottom: solid 1px rgb(59, 57, 57);
+    padding: 20px 0px 80px;
+
+}
+.content-row1>div{
+display: flex;
+
+}
+.content-row1>div>div{
+flex:1;
+font-weight: 500;
+
+}
+.width{
+width: 100%;
+}
+
+.content-row1>div>div h1 a{
+text-decoration: none;
+color:rgb(85, 79, 79);
+
+}
+.content-row1>div>div h1{
+margin-top: 0px;
+}
+.content-row1>div>div p a{
+text-decoration: none;
+color:#666666;
+font-size: 12px;
+
+
+}
+.content-row1>div>div p{
+color:#666666;
+font-size: 15px;
+margin: 10px 0px;
+
+
+}
+.content-row1>div>div h5{
+color:rgb(49, 48, 48);
+margin:0px 0px 4px;
+
+}
+.content-row1>div>div ul li a{
+text-decoration: none;
+color: #666666;
+font-size: 14px;
+ 
+
+}
+.list-content1 ul{
+    list-style: none;
+}
+.list-content1 li::before{
+    content: "◆";
+    width:3px;
+    height:3px;
+    color: rgb(73, 70, 70);
+}
+/* own method */
+.content-row3>div{
+display: flex;
+padding-top: 40px;
+padding-bottom: 20px;
+
+}
+.content-row3>div>div>{
+flex:1;
+
+}
+.content-row3>div>div h3{
+    margin: 5px 0px;
+}
+.content-row3>div>div h3 a{
+text-decoration: none;
+color:black
+}
+.content-row3>div>div p a{
+color:gray;
+text-decoration: none;
+}
+.content-row3>div>div p {
+    font-size: 14px;
+}
+.celebrate p{
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px;
+}
+
+
+.img-p{
+padding-right:10px;
+}
+.wi{
+width:25%;
+}
+
+
+/* own method ends */
+/* /* eg 
+#footerNav{
+    margin:0px;
+    padding-top: 5px;
+}
+
+    #footerNav ul{
+        list-style: none;
+    }
+    #footerNav li::before{
+        content: "";
+        width:5px;
+        height:5px;
+        background-color: red;
+        position: absolute;
+        transform: rotate(45deg);
+        left: 20px;
+
+    } */
+    /* calories starts */
+    .border-right{
+        border-right: solid 1px rgb(228, 219, 219);padding-right: 20px;
+
+    }
+    .border-middle{
+        border-bottom: solid 1px rgb(212, 204, 204);padding-bottom:40px;
+        
+    }
+    .calories>div{
+        display:flex;
+    }
+    .calories>div>div{
+        flex: 1;
+       
+    }
+    .calories>div>div a{
+        text-decoration: none;
+       
+
+    }
+    .blackcolor h3 a{
+        color: rgb(133, 119, 119);
+    }
+    .col{
+        color:#6c7072;
+        font-size: 12px;
+    }
+    .htag h3{
+        max-height:85px; 
+        overflow:hidden;
+        margin: 0px 0px;
+        padding: 10px 0px;
+    }
+    .secondrow_image{
+        padding-top: 20px;
+    }
+    .calories-padding{
+        padding-left: 10px;
+    }
+    .marginzero{
+        margin: 0px;
+    }
+    /*calories ends*/
+    /* one big table and four tables */
+    
+    
+    .opinions>div{
+        display: flex;
+       
+    }
+    .paragraph_size p a{
+        font-size: 12px;
+        text-decoration: none;
+
+    }
+    .headtag h4 a{
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .black h4 a,h1 a,p a{
+        color: rgb(116, 103, 103);
+    }
+    .padding{
+        padding: 0px 0px 10px 0px;
+        
+    }
+    .width50>div{
+        /* width: 75%; */
+        height: 30%;
+
+    }
+    .margin-right{
+        margin-left: 0px;
+    }
+    .text-align{
+        text-align: center;
+    }
+    .text-decoration p a{
+        text-decoration: none;
+    }
+    .gray p a{
+        color:gray;
+    }
+    /* gamrbreak starts */
+    .game-break{
+        display: flex;
+        width:95%;
+       
+    }
+    .game-break>div{
+        flex: 1;
+       
+    }
+    .game-break h3 a{
+        color: black;
+        text-decoration: none;
+        
+    }
+    .game-break h3{
+        margin: 0px 0px;
+        padding-bottom: 0px;
+       
+      
+        
+    }
+    .game-break p a{
+        color: rgb(131, 121, 121);
+        text-decoration: none;
+        
+    }
+    .game-break p {
+        font-size: 15px;
+        padding-top: 0px;
+        
+        
+    }
+    .displaygame{
+        display: flex;
+        
+    }
+    .game-padding{
+        padding-left: 20px;
+
+    }
+    .bordergame{
+        border-right: solid 1px rgb(168, 153, 153);
+    }
+    .bordergame-bottom{
+        border-bottom: solid 1px rgb(44, 42, 42);
+    }
+
+    /* game break ends */
+    /* post sts */
+    .post>div{
+        display: flex;
+    }
+    .post>div>div{
+        flex:1;
+    }
+    .post h2 a{
+        text-decoration: none;
+        color: rgb(32, 32, 32);
+    }
+    .post h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .post p a{
+        text-decoration: none;
+        color: rgb(92, 85, 85);
+        font-size: 15px;
+    }
+    .post p {
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .post-padding{
+        padding-right: 20px;
+    }
+    /* icon partstarts */
+    .icons>div ul{
+        list-style: none;
+        display: flex;
+    }
+    .icons>div ul li a{
+        text-decoration: none;
+    }
+    /* .icons ul li{
+        padding-right: 25px;
+       
+    } */
+    .icons>div ul{
+        padding-left: 0px;
+
+    }
+    .bl{
+        color: black;
+        font-size: 15px;
+    }
+    /* .m4px{
+        margin-left: 4px;
+    } */
+    /* next start */
+    .nextwrapper{
+        display: flex;
+       
+
+    }
+    .nextwrapper>div{
+        flex: 1;
+    }
+    .nextwrapperh2{
+        color: black;
+        text-decoration: none;
+        
+    }
+    .nextwrapperp{
+        color:gray;
+        text-decoration: none;
+    }
+    .nextwrapper-margin{
+        margin:20px 0px;
+    }
+    .nextwrapper-paddingright-0px{
+        padding-right: 0px;
+    }
+    .nextwrapper-paddingleft{
+        padding-left: 20px;
+    }
+    .nextwrapper-borderright{
+        border-right: solid 1px rgb(167, 154, 154);
+    }
+    .nextborderdown{
+        border-bottom:solid 1px black;
+        padding: 20px 0px;
+    }
+    
+    /* next ends */
+    /* poloitics starts */
+    .politicstop-padding{
+        padding: 20px 0px;
+    }
+    .politicsborder-right{
+        border-right: solid 1px rgb(165, 158, 158);
+    }
+    .politicsborder-down{
+        border-bottom: solid 1px rgb(165, 158, 158);
+}
+.politicsborder-down1{
+    border-bottom: solid 1px blackS;
+}
+    
+    .politicswrapper{
+        display: flex;
+    }
+    .politicswrapper>div{
+        flex: 1;
+    }
+    .politics-h1 h1 a{
+        color:black;
+        font-size: 32px ;
+        text-decoration: none;
+    }
+    .politics-p p a{
+        color: gray;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .politics-p p{
+        margin:0px 0px;
+    }
+    .politics-list ul{
+        list-style: none;
+        padding-left: 0px;
+      
+       
+    }
+    
+   
+    .politics-list li ::before{
+        content: "◆";
+        width:5px;
+        height:5px;
+        /* background-color: rgb(143, 133, 133); 
+        
+        position: absolute;
+        transform: rotate(45deg); */
+        left: 80px;
+        
+        
+    } 
+      
+        
+    .firstcolum h3 a{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+
+
+    }
+    .firstcolum p a{
+        color: gray;
+        font-size: 12px;
+        text-decoration: none;
+
+    }
+    .firstcolum h3{
+        margin: 0px 0px;
+        padding: 10px 0px;
+    }
+    .firstcolum p {
+        margin: 0px 0px;
+        padding-bottom: 30px;
+    }
+    .firstcolum{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .politics ul li a{
+        color: gray;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    /* politics ends */
+    /* footer starts */
+    .footer-wrapper{
+        margin: 15px 150px 0px 100px;
+    }
+    .footer{
+        display: flex;
+    }
+    .footer>div{
+        flex:1;
+    }
+    .footer>div ul li a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #2A2A2A;
+    }
+    .footer>div ul li{
+        padding: 0px 0px 10px 0px;
+        
+        
+    }
+    .footer>div ul li:first-child{
+        font-weight: bold;
+    }
+    .footer>div ul{
+        list-style: none;
+        padding: 0px;
+    }
+    .last{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .last a{
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(22, 20, 20);
+    }
+    /* footer ends */
+
+
+
+
+
